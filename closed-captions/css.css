@@ -49,21 +49,71 @@ iframe {
 
 .voice1 {
     font-style: italic;
+    color: white;
 }
 
 .voice1:first-of-type:before {
-    content: "TEST1";
+    content: "Stem 1:  ";
     color: yellow;
+    font-family: brenner;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 
 .voice2 {
     font-weight: bold;
+    color: white;
 }
 
-.voice2:first-of-type:before {
-    content: "TEST2";
-    color: pink;
+.voice2:before {
+     content: "Stem 2: ";
+    color: yellow;
+    font-family: brenner;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.voice3 {
+    font-weight: bold;
+    color: white;
+}
+
+.voice3:before {
+     content: "RANDOM MAN: ";
+    color: blue;
+    font-family: brenner;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.voice4 {
+    font-weight: bold;
+    color: white;
+}
+
+.voice4:before {
+     content: "Stem 4: ";
+    color: orange;
+    font-family: brenner;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.voice5 {
+    font-weight: bold;
+    color: white;
+}
+
+.voice5:before {
+     content: "Stem 5: ";
+    color: firebrick;
+    font-family: brenner;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 /* **********************************************
@@ -154,9 +204,11 @@ You probably want to change the styling.
 }
 
 .p1.on {
-    background: hotpink;
-    color: red;
-    font-size: 200px;
+ opacity: 1;
+    transition: 0s;
+    font-weight: 200;
+    font-family: "brenner mono";
+    color: white;
 }
 
 
@@ -238,17 +290,20 @@ Sounds.
     0% {
         transform: scale(1);
         width: 48em;
+        border: 10px solid red;
 
     }
 
     50% {
         transform: scale(1.2);
-        width:30em;
+        width:60em;
+         border: 30px solid red;
     }
 
     100% {
         transform: scale(1);
         width: 48em;
+         border: 10px solid red;
     }
 }
 
