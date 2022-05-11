@@ -10,6 +10,10 @@ body {
     transition: 0.2s ease;
 }
 
+html{
+    height: 100%;
+}
+
 
 iframe {
     transition: 1s;
@@ -253,14 +257,21 @@ Sounds.
 @keyframes achtergrondBegin {
     0% {
         background: #283134;
+        box-shadow: 0em 0em 3.5em 3.5em #FFA9DA;
     }
 
     50% {
-        background-color: #000000;
+        background-color: #1f1f1f;
+/*
+        background-image: linear-gradient(to right, #283134, #2a424e, #34516c, #4b5e89, #7068a1, #7676b4, #7b84c7, #7f92da, #56a8e3, #41badd, #59c9cf, #83d4bf);
+         background-size: 100%;
+*/
+        box-shadow: 0em 0em 4em 4em #62F4CA;
     }
 
     100% {
         background-color: #283134;
+        box-shadow: 0em 0em 3.5em 3.5em #FFA9DA;
     }
 }
 
