@@ -50,28 +50,36 @@ iframe {
 .voice1 {
     font-style: italic;
     color: white;
+    font-family: "Brenner Mono"; 
+    font-style: Normal; 
+    font-weight: 600;
 }
 
-.voice1:first-of-type:before {
+.voice1:before {
     content: "Stem 1:  ";
-    color: yellow;
-    font-family: brenner;
-    font-size: 20px;
-    font-weight: bolder;
+    color: lime;
+    font-family: "Brenner Sans";
+    font-style: Normal;
+    font-weight: 800;
+    font-size: 30px;
 }
 
 
 .voice2 {
     font-weight: bold;
     color: white;
+    font-family: "Brenner Sans"; 
+    font-style: normal; 
+    font-weight: 400;
 }
 
 .voice2:before {
-     content: "Stem 2: ";
+    content: "Stem 2: ";
     color: yellow;
-    font-family: brenner;
-    font-size: 20px;
-    font-weight: bolder;
+    font-family: "Brenner Sans";
+    font-style: Normal;
+    font-weight: 800;
+    font-size: 30px;
 }
 
 
@@ -81,39 +89,48 @@ iframe {
 }
 
 .voice3:before {
-     content: "RANDOM MAN: ";
+    content: "RANDOM MAN: ";
     color: blue;
-    font-family: brenner;
-    font-size: 20px;
-    font-weight: bolder;
+    font-family: "Brenner Sans";
+    font-style: Normal;
+    font-weight: 800;
+    font-size: 30px;
 }
 
 
 .voice4 {
     font-weight: bold;
     color: white;
+    font-family: "Brenner Mono"; 
+    font-style: Normal; 
+    font-weight: 600;
 }
 
 .voice4:before {
-     content: "Stem 4: ";
+    content: "Stem 4: ";
     color: orange;
-    font-family: brenner;
-    font-size: 20px;
-    font-weight: bolder;
+    font-family: "Brenner Sans";
+    font-style: Normal;
+    font-weight: 800;
+    font-size: 30px;
 }
 
 
 .voice5 {
     font-weight: bold;
     color: white;
+    font-family: "Brenner Mono"; 
+    font-style: Normal; 
+    font-weight: 600;
 }
 
 .voice5:before {
-     content: "Stem 5: ";
+    content: "Stem 5: ";
     color: firebrick;
-    font-family: brenner;
-    font-size: 20px;
-    font-weight: bolder;
+    font-family: "Brenner Sans";
+    font-style: Normal;
+    font-weight: 800;
+    font-size: 30px;
 }
 
 /* **********************************************
@@ -204,7 +221,7 @@ You probably want to change the styling.
 }
 
 .p1.on {
- opacity: 1;
+    opacity: 1;
     transition: 0s;
     font-weight: 200;
     font-family: "brenner mono";
@@ -235,15 +252,15 @@ Sounds.
 
 @keyframes achtergrondBegin {
     0% {
-       background:  #283134;
+        background: #283134;
     }
 
     50% {
-          background-color: #000000;
+        background-color: #000000;
     }
 
     100% {
-    background-color: #283134;
+        background-color: #283134;
     }
 }
 
@@ -255,7 +272,7 @@ Sounds.
     100% {
         transform: translateX(0);
     }
-    
+
 
     10%,
     30%,
@@ -264,7 +281,7 @@ Sounds.
         transform: translateX(-5px);
     }
 
-    
+
     10%,
     19%,
     39%,
@@ -289,21 +306,18 @@ Sounds.
 @keyframes groot {
     0% {
         transform: scale(1);
-        width: 48em;
-        border: 10px solid red;
+        /*        width: 48em;*/
 
     }
 
     50% {
-        transform: scale(1.2);
-        width:60em;
-         border: 30px solid red;
+        transform: scale(1.3);
+        /*        width:60em;*/
     }
 
     100% {
         transform: scale(1);
-        width: 48em;
-         border: 10px solid red;
+        /*        width: 48em;*/
     }
 }
 
