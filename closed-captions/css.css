@@ -93,12 +93,12 @@ iframe {
     color: white;
     font-family: "Brenner Sans"; 
     font-style: normal; 
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .voice2:before {
     content: "Stem 2: ";
-    color: yellow;
+    color: white;
     font-family: "Brenner Sans";
     font-style: Normal;
     font-weight: 800;
@@ -113,7 +113,7 @@ iframe {
 
 .voice3:before {
     content: "RANDOM MAN: ";
-    color: blue;
+    color: #ff8284;
     font-family: "Brenner Sans";
     font-style: Normal;
     font-weight: 800;
@@ -247,14 +247,63 @@ You probably want to change the styling.
 }
 */
 
-/*
-.p1.on {
+
+.p1.on span:nth-of-type(1) {
     opacity: 1;
     transition: 0s;
   font-family: "Brenner Sans"; 
     font-style: normal; 
     font-weight: 400;
-    color: pink;
+    color: white;
+    animation: yes 1s ease 1;
+}
+
+@keyframes yes{
+    0%{
+        font-size: 16px;
+        font-weight: normal;
+    }
+    
+    50%{
+        font-size: 30px;
+        font-weight: bold;
+        color: lime;
+    }
+    
+    100%{
+        font-size: 16px;
+        font-weight: normal;
+    }
+}
+
+
+.p1.on span:nth-of-type(2) {
+    opacity: 1;
+    transition: 0s;
+  font-family: "Brenner Sans"; 
+    font-style: normal; 
+    font-weight: 400;
+    color: white;
+    animation: sir 1s ease 1;
+    animation-delay: 0.3s;
+}
+
+@keyframes sir{
+    0%{
+        font-size: 16px;
+        font-weight: normal;
+    }
+    
+    50%{
+        font-size: 30px;
+        font-weight: bold;
+        color: lime;
+    }
+    
+    100%{
+        font-size: 16px;
+        font-weight: normal;
+    }
 }
 
 
@@ -265,7 +314,7 @@ You probably want to change the styling.
     font-style: normal; 
     font-weight: 400;
 }
-*/
+
 
 /* **********************************************
 Sounds.
@@ -340,7 +389,7 @@ Sounds.
 
 
 .sound1 iframe {
-    animation: groot 1.5s 1 ease;
+    animation: grot 1.5s 1 ease, alarm1 0.2s 5 ease;
 }
 
 @keyframes groot {
@@ -361,6 +410,38 @@ Sounds.
     }
 }
 
+@keyframes alarm1 {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+
+    10%,
+    30%,
+    50%,
+    69% {
+        transform: translateX(-7px);
+    }
+
+
+    10%,
+    19%,
+    39%,
+    59% {
+        transform: translateX(7px);
+    }
+
+    79% {
+        transform: translateX(6px);
+    }
+
+    95% {
+        transform: translateX(-6px);
+    }
+}
+
 .sound1 {
     animation: rood 2s 1 ease;
 }
@@ -368,11 +449,10 @@ Sounds.
 @keyframes rood {
     0% {
         background-color: #283134;
-        transform: rotate()
     }
 
     50% {
-        background-color: darkred;
+        background-color: #870505;
     }
 
     100% {
