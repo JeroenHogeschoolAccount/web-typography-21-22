@@ -14,14 +14,14 @@ body {
 }
 
 
-html{
+html {
     height: 100%;
 }
 
 
 iframe {
     transition: 1s;
-/*    clip-path: inset(3.7em 0em);*/
+    /*    clip-path: inset(3.7em 0em);*/
     grid-column-start: 2;
     grid-row-start: 2;
 }
@@ -70,8 +70,8 @@ iframe {
 
 .voice1 {
     font-style: italic;
-    font-family: "Brenner Mono"; 
-    font-style: Normal; 
+    font-family: "Brenner Mono";
+    font-style: Normal;
     font-weight: 600;
     color: lime;
 }
@@ -81,7 +81,7 @@ iframe {
     content: "Stem 1:  ";
     color: white;
     font-family: "Brenner Sans";
-    font-family: "Brenner Mono"; 
+    font-family: "Brenner Mono";
     font-style: Normal;
     font-weight: 800;
     font-size: 30px;
@@ -91,30 +91,33 @@ iframe {
 .voice2 {
     font-weight: bold;
     color: white;
-    font-family: "Brenner Sans"; 
-    font-style: normal; 
-    font-weight: 600;
+    font-family: "Brenner Sans";
+    font-style: Italic;
+    font-weight: 200;
 }
 
 .voice2:before {
     content: "Stem 2: ";
     color: white;
-    font-family: "Brenner Sans";
-    font-style: Normal;
-    font-weight: 800;
+font-family: "Brenner Sans"; 
+    font-style: Italic; 
+    font-weight: 600;
     font-size: 30px;
 }
 
 
 .voice3 {
     font-weight: bold;
-    color: white;
+    color: #ff4d4d;
+    font-family: "Brenner Sans Condensed";
+    font-style: Normal;
+    font-weight: 800;
 }
 
 .voice3:before {
-    content: "RANDOM MAN: ";
-    color: #ff8284;
-    font-family: "Brenner Sans";
+    content: "Random man: ";
+    color: white;
+    font-family: "Brenner Sans Condensed";
     font-style: Normal;
     font-weight: 800;
     font-size: 30px;
@@ -124,8 +127,8 @@ iframe {
 .voice4 {
     font-weight: bold;
     color: white;
-    font-family: "Brenner Mono"; 
-    font-style: Normal; 
+    font-family: "Brenner Mono";
+    font-style: Normal;
     font-weight: 600;
 }
 
@@ -142,8 +145,8 @@ iframe {
 .voice5 {
     font-weight: bold;
     color: white;
-    font-family: "Brenner Mono"; 
-    font-style: Normal; 
+    font-family: "Brenner Mono";
+    font-style: Normal;
     font-weight: 600;
 }
 
@@ -247,30 +250,55 @@ You probably want to change the styling.
 }
 */
 
+.p0.on span:nth-of-type(11) {
+    opacity: 1;
+    transition: 0s 3.7s;
+    animation: ready 0.8s ease 1;
+    animation-delay: 3.5s;
+}
+
+@keyframes ready {
+    0% {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    50% {
+        font-size: 30px;
+        font-weight: bold;
+        color: yellow;
+    }
+
+    100% {
+        font-size: 16px;
+        font-weight: normal;
+    }
+}
+
 
 .p1.on span:nth-of-type(1) {
     opacity: 1;
     transition: 0s;
-  font-family: "Brenner Sans"; 
-    font-style: normal; 
+    font-family: "Brenner Sans";
+    font-style: normal;
     font-weight: 400;
     color: white;
-    animation: yes 1s ease 1;
+    animation: yes 0.8s ease 1;
 }
 
-@keyframes yes{
-    0%{
+@keyframes yes {
+    0% {
         font-size: 16px;
         font-weight: normal;
     }
-    
-    50%{
+
+    50% {
         font-size: 30px;
         font-weight: bold;
         color: lime;
     }
-    
-    100%{
+
+    100% {
         font-size: 16px;
         font-weight: normal;
     }
@@ -280,40 +308,78 @@ You probably want to change the styling.
 .p1.on span:nth-of-type(2) {
     opacity: 1;
     transition: 0s;
-  font-family: "Brenner Sans"; 
-    font-style: normal; 
+    font-family: "Brenner Sans";
+    font-style: normal;
     font-weight: 400;
     color: white;
-    animation: sir 1s ease 1;
+    animation: sir 0.8s ease 1;
     animation-delay: 0.3s;
 }
 
-@keyframes sir{
-    0%{
+@keyframes sir {
+    0% {
         font-size: 16px;
         font-weight: normal;
     }
-    
-    50%{
+
+    50% {
         font-size: 30px;
         font-weight: bold;
         color: lime;
     }
-    
-    100%{
+
+    100% {
         font-size: 16px;
         font-weight: normal;
     }
 }
 
 
-
-.p2 span {
-    color: white;
-    font-family: "Brenner Sans"; 
-    font-style: normal; 
-    font-weight: 400;
+.p3.on{
+    animation: saai1 3.5s ease 1;
 }
+
+@keyframes saai1 {
+    0% {
+        letter-spacing: 0;
+    }
+
+    100% {
+       letter-spacing: 0.3em;
+    }
+}
+
+
+.p4.on{
+    animation: saai2 3.5s ease 1;
+}
+
+@keyframes saai2 {
+    0% {
+        letter-spacing: 0;
+    }
+
+    100% {
+       letter-spacing: 0.3em;
+    }
+}
+
+
+.p5.on{
+    animation: saai3 5s ease 1;
+}
+
+@keyframes saai3 {
+    0% {
+        letter-spacing: 0;
+    }
+
+    100% {
+       letter-spacing: 0.3em;
+    }
+}
+
+
 
 
 /* **********************************************
@@ -340,7 +406,7 @@ Sounds.
 
     50% {
         background-color: #1f1f1f;
-/*
+        /*
         background-image: linear-gradient(to right, #283134, #2a424e, #34516c, #4b5e89, #7068a1, #7676b4, #7b84c7, #7f92da, #56a8e3, #41badd, #59c9cf, #83d4bf);
          background-size: 100%;
 */
@@ -460,6 +526,81 @@ Sounds.
     }
 }
 
+
+.sound2 {
+    animation: alarm2 1.1s 1 ease;
+}
+
+@keyframes alarm2 {
+    0% {
+        background-color: #69010b;
+    }
+
+    50% {
+        background-color: #000352;
+    }
+
+    100% {
+        background-color: #69010b;
+    }
+}
+
+.sound3 {
+    animation: alarm3 1.4s 1 ease;
+}
+
+@keyframes alarm3 {
+    0% {
+        background-color: #ff143c;
+    }
+
+    50% {
+        background-color: #2e1fff;
+    }
+
+    100% {
+        background-color: #ff143c;
+    }
+}
+
+
+.sound5{
+    animation: alarm4 1.2s 1 ease;
+}
+
+@keyframes alarm4 {
+    0% {
+        background-color: #ff143c;
+    }
+
+    50% {
+        background-color: #2e1fff;
+    }
+
+    100% {
+        background-color: #ff143c;
+    }
+}
+
+
+
+.sound7{
+    animation: alarm5 1.2s 1 ease;
+}
+
+@keyframes alarm5 {
+    0% {
+        background-color: #ff143c;
+    }
+
+    50% {
+        background-color: #2e1fff;
+    }
+
+    100% {
+        background-color: #ff143c;
+    }
+}
 
 
 
