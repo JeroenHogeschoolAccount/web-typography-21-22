@@ -501,7 +501,7 @@ Sounds.
     }
 
     79% {
-        transform: translateX(6px);
+        transform: translateX(30px);
     }
 
     95% {
@@ -605,7 +605,7 @@ Sounds.
 
 
 .sound8{
-    animation: achtergrondRood 46s 1 ease;
+    animation: achtergrondRood 43.5s 1 ease;
     animation-fill-mode: forwards;
 }
 
