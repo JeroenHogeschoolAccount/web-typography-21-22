@@ -78,7 +78,7 @@ iframe {
 
 
 .voice1:before {
-    content: "Stem 1:  ";
+    content: "Vragensteller: ";
     color: white;
     font-family: "Brenner Sans";
     font-family: "Brenner Mono";
@@ -97,9 +97,9 @@ iframe {
 }
 
 .voice2:before {
-    content: "Stem 2: ";
+    content: "Officer K:  ";
     color: white;
-font-family: "Brenner Sans"; 
+    font-family: "Brenner Sans"; 
     font-style: Italic; 
     font-weight: 600;
     font-size: 30px;
@@ -403,6 +403,25 @@ You probably want to change the styling.
 }
 
 
+.p41.on::after{
+    content: " (3x)";
+    color: wehite;
+}
+
+
+.p42.on::after{
+    content: " (3x)";
+    color: wehite;
+}
+
+
+.p43.on::after{
+    content: " (3x)";
+    color: wehite;
+}
+
+
+
 
 
 /* **********************************************
@@ -489,7 +508,7 @@ Sounds.
     }
 
     50% {
-        transform: scale(1.1);
+        transform: scale(1.05);
         /*        width:60em;*/
     }
 
