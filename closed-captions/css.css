@@ -109,9 +109,11 @@ font-family: "Brenner Sans";
 .voice3 {
     font-weight: bold;
     color: #ff4d4d;
+    color: white;
     font-family: "Brenner Sans Condensed";
     font-style: Normal;
     font-weight: 800;
+    position: absolute;
 }
 
 .voice3:before {
@@ -380,6 +382,26 @@ You probably want to change the styling.
     }
 }
 
+.p6.on span{
+        animation: off 1.2s ease 1;
+}
+
+@keyframes off {
+    0% {
+        font-size: 16px;
+    }
+
+    50% {
+        font-size: 40px;
+        font-weight: bolder;
+        color: red;
+    }
+
+    100% {
+        font-size: 16px;
+    }
+}
+
 
 
 
@@ -456,7 +478,7 @@ Sounds.
 
 
 .sound1 iframe {
-    animation: grot 1.5s 1 ease, alarm1 0.2s 5 ease;
+    animation: alarm1 0.2s 5 ease;
 }
 
 @keyframes groot {
@@ -505,12 +527,12 @@ Sounds.
     }
 
     95% {
-        transform: translateX(-6px);
+        transform: translateX(-30px);
     }
 }
 
 .sound1 {
-    animation: rood 2s 1 ease;
+    animation: rood 3s 1 ease;
 }
 
 @keyframes rood {
@@ -529,7 +551,7 @@ Sounds.
 
 
 .sound2 {
-    animation: alarm2 1.1s 1 ease;
+    animation: alarm2 1.1s 1 ease, groot 1.5s 1 ease;
 }
 
 @keyframes alarm2 {
@@ -605,7 +627,7 @@ Sounds.
 
 
 .sound8{
-    animation: achtergrondRood 43.5s 1 ease;
+    animation: achtergrondRood 43.5s 1 ease, trillen 0.2s ease 210;
     animation-fill-mode: forwards;
 }
 
@@ -621,6 +643,39 @@ Sounds.
     
       100% {
         background-color: #ABB49F;
+    }
+}
+
+
+@keyframes trillen2 {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+
+    10%,
+    30%,
+    50%,
+    69% {
+        transform: translateX(-5px);
+    }
+
+
+    10%,
+    19%,
+    39%,
+    59% {
+        transform: translateX(5px);
+    }
+
+    79% {
+        transform: translateX(4px);
+    }
+
+    95% {
+        transform: translateX(-4px);
     }
 }
 
