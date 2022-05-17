@@ -91,7 +91,7 @@ Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt
 # Deel student  
 
 
-# Web Typography, 2020/2021
+# Webtypografie 2021/2022
 In dit document zijn mijn gemaakte keuzes en proces te lezen voor het vak Webtypografie. 
 
 ## Gekozen font
