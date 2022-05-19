@@ -33,29 +33,29 @@ Op deze dag heb ik mijn tot nu toe gemaakte werk laten zien aan mijn ouders voor
 Verder heb ik op deze dag te tekst verder vormgegeven, zoals kleur en stijl. Ik heb gekozen om voice1 de kleur lime te geven, omdat de stem mij moest denken aan een 'robot' stem. Programeertaal heeft ook vaak felle kleuren, zoals lime. Voice2 heb ik de kleur wit gegeven, omdat dit past bij de neutrale, rustige toon van de hoofdpersoon. Wit wordt geassocieerd met neutraal.  
 
 
-### Update 3 13 mei
+### Update 3 - 13 mei
 Deze dag ben ik aan de slag gegaan met de feedback dat ik van mijn ouders kreeg: het animeren van de tekst. Sommige belangrijke woorden heb ik geanimeerd, zoals wanneer de hoofdpersoon "Yes Sir" zegt. Deze woorden worden op het moment van uitspreken vergroot en veranderen van kleur. Ook heb ik de zin "interlinked within cells, interlinked within one stem." geanimeerd, door de letter-spacing langzaam te veranderen. Ik vond dit effect wel passen bij de zeer neutrale saaie toon van de hoofdpersoon. Ik ga dit later nog testen of dit van toegevoegde waarde is. Ook is er een animatie te zien bij de scheldende man. Deze tekst wordt rood en groot in beeld gebracht.  
 
 
-### Update 4 14 mei
+### Update 4 - 14 mei
 Ik heb zitten nadenken wat ik bij de scène waarbij de hoofdpersoon in een kleine kamer zit kan toevoegen. Ik vond dit best lastig, omdat er eigenlijk niet veel gebeurd. Er is wel een vervelende piep te horen. Ik heb daarom een vervelende trilling in de video en tekst toegevoegd (een hoge toon heeft veel trillingen vergeleken met een lage toon). Ook veranderd de achtergrond langzaam naar rood (vond ik passen bij spanning). Wanneer de piep voorbij is veranderd de kleur rood van de body weer naar de kleur van de kamer. Zo weet de kijker dat de spanning  opeens weg is. 
 Ik had wel soms moeite met het juist timen van de effecten. Dit heeft best veel tijd in beslag genomen, maar naar tientallen keren opnieuw proberen is het redelijk gelukt. Verder heb ik een beetje feedback verwerkt dat ik had gekregen. Het was bijvoorbeeld niet duidelijk dat de zin "Within cells interlinked." 3 keer werd gezegd (wanneer je geen geluid hebt). Dit heb ik opgelost door middel van  de suggestie om "after" te gebruiken. Achter de zin staat nu "3x". Ook heb ik bij sommige woorden het contrast iets aangepast, zodat het beter is te lezen.  
 
 
-### Update 5 15 mei
+### Update 5 - 15 mei
 Wegens (medische) omstandigheden niet aan de opdracht kunnen werken.  
 
 
-### Update 6 16 mei
+### Update 6 - 16 mei
 Wegens (medische) omstandigheden niet veel aan de opdracht kunnen werken.  
 
 
-### Update 7 18 mei
+### Update 7 - 18 mei
 Deze dag ben ik begonnen aan het tweede deel van de video. In dit deel is een vreemd muziekje te horen. Ik kreeg als feedback om afbeeldingen te gebruiken en die boven op de video te leggen (en deze vervolgens weer animeren). Dit heb ik dan ook geprobeerd, echter vond ik het persoonlijk té druk worden en heb dit daarom weer weggehaald. Ik ben hierna bezig geweest met box-shadow bij de scéne met de computers. De iframe zal oplichten met dezelfde kleur als het computerscherm (blauw/groen). Verrder heb ik de trillingen van de hoge piep weer terug laten komen (enkel wanneer steeds de scéne is te zien van het kamertje). Ik ben hier ontzettend lang mee bezig geweest, omdat het erg lastig was om goed te timen. Bij elke verandering moest ik weer de gehele video bekijken, zodat ik kon zien hoe de wijzingen waren uitgepakt. 
 Verder kreeg ik feedback of ik de "(3x)" niet ook kon animeren zoals ik bij de woorden "Yes sir" had gedaan. Dit vond ik een goed idee en heb dit veranderd. Op deze manier zit er meer gevoel in. 
 
 
-### Update 8 19 mei
+### Update 8 - 19 mei
 Deze dag ben ik bezig geweest met 'de puntjes op de i'. Ik heb geprobeerd de timing van de effecten zo nauwkeurig mogelijk te krijgen. Ik ben daar best tevreden mee. Soms is de timing net iets anders, maar ik denk dat dit met het internet te maken heeft. Tijdens de scéne met de man in de kamer heb ik met CSS een hart gemaakt dat snel klopt, zodat de gebruiker nog beter begrijpt dat het een scéne met spanning is.
 Verder kreeg ik feedback (door te testen) over de ondertiteling van de boze man. Ik had ervoor gekozen deze vetgedrukt te maken, echter wanneer je geen geluid kan horen lijkt het alsof deze man het schreeuwend zegt (terwijl het juist fluisterend is). Ik heb daarom besloten deze tekst te veranderen in light.
 Verder viel het mij op dat voice1 op het einde van de scéne met de man in het kleine kamertje 'zachter' klinkt. Ik heb daarom een groene gloed rondom de tekst gevoegd.   
