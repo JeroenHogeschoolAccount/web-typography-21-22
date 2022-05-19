@@ -112,7 +112,7 @@ iframe {
     color: white;
     font-family: "Brenner Sans Condensed";
     font-style: Normal;
-    font-weight: 800;
+    font-weight: 400;
     position: absolute;
 }
 
@@ -122,7 +122,7 @@ iframe {
     color: white;
     font-family: "Brenner Sans Condensed";
     font-style: Normal;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 30px;
 }
 
@@ -398,7 +398,7 @@ You probably want to change the styling.
 
     50% {
         font-size: 40px;
-        font-weight: bolder;
+        font-weight: 400;
         color: red;
     }
 
@@ -456,6 +456,37 @@ You probably want to change the styling.
     color: white;
     animation: drie 0.8s ease 1;
 }
+
+
+.p44.on span {
+    font-style: italic;
+    font-family: "Brenner Mono";
+    font-style: Normal;
+    font-weight: 600;
+    color: lime;
+    text-shadow: 0 0 10px lime, 0 0 20px lime, 0 0 30px lime, 0 0 40px lime
+}
+
+
+.p45.on span {
+    font-style: italic;
+    font-family: "Brenner Mono";
+    font-style: Normal;
+    font-weight: 600;
+    color: lime;
+    text-shadow: 0 0 10px lime, 0 0 20px lime, 0 0 30px lime, 0 0 40px lime
+}
+
+
+.p46.on span {
+    font-style: italic;
+    font-family: "Brenner Mono";
+    font-style: Normal;
+    font-weight: 600;
+    color: lime;
+    text-shadow: 0 0 10px lime, 0 0 20px lime, 0 0 30px lime, 0 0 40px lime
+}
+
 
 
 
@@ -732,14 +763,15 @@ Sounds.
 
 /* Bron: https://stackoverflow.com/questions/17386168/how-to-create-a-heart-shape-using-css */
 .sound8::after {
-    animation: hartje 1.1s 38;
+    animation: hartje 1.1s 38.4;
     position: absolute;
     content: "";
     top: 0;
     width: 7em;
     height: 7em;
     margin: auto;
-    top: 40em;;
+    top: 40em;
+    ;
     left: 46.5%;
     border-image: radial-gradient(white 69%, #0000 70%) 84.5% fill/100%;
     clip-path: polygon(-41% 0, 50% 91%, 141% 0);
@@ -747,9 +779,9 @@ Sounds.
 }
 
 @keyframes hartje {
-    
-    
-     0% {
+
+
+    0% {
         opacity: 0.2;
     }
 
@@ -760,22 +792,22 @@ Sounds.
 
     40% {
         transform: scale(2);
-               opacity: 0.2;
+        opacity: 0.2;
     }
 
     60% {
         transform: scale(1);
-               opacity: 0.8;
+        opacity: 0.8;
     }
 
     70% {
         transform: scale(2);
-               opacity: 0.5;
+        opacity: 0.5;
     }
 
     100% {
         transform: scale(1);
-               opacity: 0.2;
+        opacity: 0.2;
     }
 
 }
@@ -829,15 +861,14 @@ Sounds.
 }
 
 @keyframes blauw {
-    0% {
-    }
+    0% {}
 
     50% {
         box-shadow: 0em 0em 1em 1em #0094C1;
     }
 
     100% {
-        box-shadow: 0em 0em 2.5em 2.5em #1B3E4D;
+        box-shadow: 0em 0em 2em 2em #1B3E4D;
     }
 }
 
@@ -932,6 +963,56 @@ Sounds.
     }
 }
 
+.sound15::after {
+    animation: hartjeTwee 1.1s 14.2;
+    animation-delay: -0.3s;
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 7em;
+    height: 7em;
+    margin: auto;
+    top: 40em;
+    left: 46.5%;
+    border-image: radial-gradient(white 69%, #0000 70%) 84.5% fill/100%;
+    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+    opacity: 0;
+}
+
+@keyframes hartjeTwee {
+
+
+    0% {
+        opacity: 0.2;
+    }
+
+    30% {
+        transform: none;
+        opacity: 0.2;
+    }
+
+    40% {
+        transform: scale(2);
+        opacity: 0.2;
+    }
+
+    60% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    70% {
+        transform: scale(2);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0.2;
+    }
+
+}
+
 
 .sound16 {
     animation: trillen5 0.2s ease 35;
@@ -970,9 +1051,59 @@ Sounds.
     }
 }
 
+.sound16::after {
+    animation: hartjeDrie 1.1s 6.4;
+    animation-delay: -0.3s;
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 7em;
+    height: 7em;
+    margin: auto;
+    top: 40em;
+    left: 46.5%;
+    border-image: radial-gradient(white 69%, #0000 70%) 84.5% fill/100%;
+    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+    opacity: 0;
+}
+
+@keyframes hartjeDrie {
+
+
+    0% {
+        opacity: 0.2;
+    }
+
+    30% {
+        transform: none;
+        opacity: 0.2;
+    }
+
+    40% {
+        transform: scale(2);
+        opacity: 0.2;
+    }
+
+    60% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    70% {
+        transform: scale(2);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0.2;
+    }
+
+}
+
 
 .sound17 {
-    animation: trillen6 0.2s ease 17;
+    animation: trillen6 0.2s ease 12;
     animation-fill-mode: forwards;
 }
 
@@ -1006,6 +1137,56 @@ Sounds.
     95% {
         transform: translateX(-4px);
     }
+}
+
+.sound17::after {
+    animation: hartjeVier 1.1s 3.2;
+    animation-delay: -0.3s;
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 7em;
+    height: 7em;
+    margin: auto;
+    top: 40em;
+    left: 46.5%;
+    border-image: radial-gradient(white 69%, #0000 70%) 84.5% fill/100%;
+    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+    opacity: 0;
+}
+
+@keyframes hartjeVier {
+
+
+    0% {
+        opacity: 0.2;
+    }
+
+    30% {
+        transform: none;
+        opacity: 0.2;
+    }
+
+    40% {
+        transform: scale(2);
+        opacity: 0.2;
+    }
+
+    60% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    70% {
+        transform: scale(2);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0.2;
+    }
+
 }
 
 
