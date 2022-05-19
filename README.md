@@ -7,23 +7,24 @@ In dit document zijn mijn gemaakte keuzes en proces te lezen voor het vak Webtyp
 Ik heb gekozen voor het lettertype Brenner, hier konden we voor dit vak gratis gebruik van maken. Dit font heeft erg veel verschillende stijlen. Binnen elke stijl kan ook gekozen worden uit bold, light etc. Hierdoor leek het mij een goed idee om hiermee verder te gaan, in plaats van de tweede optie waar we voor konden kiezen: systeemfont.
 Toen ik het overzicht van Brenner bekeek, had ik direct in mijn hoofd welke stijlen ik voor de stemmen kon gebruiken.  
 Ik heb uiteindelijk gebruik gemaakt van drie verschillende stijlen.  Elke stem dat te horen is in de video heeft een andere Brenner stijl. Ik zal later onderbouwen waarom ik voor een bepaalde stem specifiek die ene stijl heb gekozen. 
-Verder ben ik met het gebruik van dit font er zeker van dat de gebruiker het juiste font ziet, dit is niet zo met een systeem-font. 
+Verder ben ik door het gebruiken van dit font er zeker van dat de gebruiker het juiste font ziet, dit is niet zo met een systeem-font. 
 
 
 ## Het proces (updates) + onderbouwing
 
 ### Update 1 - 10 mei
-Ik heb het fragment meerdere keren bekeken en beluisterd. Ik had nog niet eerder gehoord van de film Blade Runner 2049, dus ik kende het fragment nog niet. Ik heb eerst goed zitten luisteren naar de verschillende stemmen, zodat ik gemakkelijk voor elke stem kon bepalen welke Brenner stijl ik ga gebruiken. Ik heb drie verschillende stemmen waargenomen, echter vond ik het best lastig om voice1 en voice2 uit elkaar te houden. Voor voice1 heb ik gebruik gemaakt van "Brenner Mono". Dit lettertype lijkt op het lettertype dat vaak wordt gebruikt door machines/systemen. Ik vond dit lettertype daarom goed bij voice1 passen, aangezien deze stem niet bepaald menselijk klinkt (emotieloos). Ook heb ik gekozen om voor voice 1 gebruik te maken van de bold variant - in verband met de zware stem. 
-Voor voice2 heb ik gekozen om "Brenner Sans" te gebruiken. Dit lettertype is vrij neutraal, net zoals de stem. 
-Voor voice3 heb ik gebruik gemaakt van vetgedrukt "Brenner Sans Condensed". Ik vond deze passen bij de random boze man. Dit font is breder en zwaarder, passend bij de boodschap van de tekst. 
+Ik heb het fragment meerdere keren bekeken en beluisterd. Ik had nog niet eerder gehoord van de film "Blade Runner 2049", dus ik kende het fragment nog niet. Ik heb eerst goed zitten luisteren naar de verschillende stemmen, zodat ik gemakkelijk voor elke stem kon bepalen welke Brenner stijl ik ga gebruiken. Ik heb drie verschillende stemmen waargenomen, echter vond ik het best lastig om voice1 en voice2 uit elkaar te houden. Voor voice1 heb ik gebruik gemaakt van "Brenner Mono". Dit lettertype lijkt op het lettertype dat vaak wordt gebruikt door machines/systemen. Ik vond dit lettertype daarom goed bij voice1 passen, aangezien deze stem niet bepaald menselijk klinkt (emotieloos). Ook heb ik gekozen om voor voice 1 gebruik te maken van de bold variant - in verband met de zware 'stem'. 
+Voor voice2 heb ik gekozen om "Brenner Sans" light te gebruiken. Dit lettertype is vrij neutraal, net zoals de stem. 
+Voor voice3 heb ik gebruik gemaakt van vetgedrukt "Brenner Sans Condensed". Ik vond deze passen bij de random boze man. Dit font is breder en zwaarder, passend bij de agressieve boodschap van de tekst (dit heb ik later veranderd nadat ik feedback had gekregen - zie update 8).
 Verder heb ik de video responsive in het midden gezet en groter gemaakt.
-Ook heb ik door middel van het gebruik maken in CSS van "before" een korte vermelding toegevoegd wat wie welke tekst is, zodat dit voor dove mensen duidelijk wordt. Ik vond het zelf (met geluid) al lastig om stem 1 en stem 2 uit elkaar te halen, dus laat staan hoe lastig dit is voor mensen die doof zijn. Op dit moment heb ik dit beschreven met "Stem 1, stem 2 en stem 3", maar dit wil ik later nog veranderen. 
-Als laatste heb ik de basis kleur van de body donker-grijs gemaakt, zodat dit beter past bij de video.
+Ook heb ik door middel van het gebruik maken in CSS van "before" een korte vermelding toegevoegd van wie welke tekst is, zodat dit voor dove mensen duidelijk wordt. Ik vond het zelf (met geluid) al lastig om stem 1 en stem 2 uit elkaar te halen, dus laat staan hoe lastig dit is voor mensen die doof zijn. Op dit moment heb ik dit beschreven met "Stem 1, stem 2 en stem 3", maar dit wil ik later nog veranderen. 
+Als laatste heb ik de basis kleur van de body donker-grijs gemaakt, zodat de focus gaat naar de video en letters. 
 
 
 ### Update 2 - 11 mei
-Deze dag nagedacht welke effecten ik kan toevoegen. Ik ben begonnen met de eerste paar seconde van de video. Er is een zwaar en laag geluid te horen. Ik kreeg het idee om de video logischerwijs te laten trillen (net zoals bij een basgitaar). Deze animatie heb ik met een simpele  keyframe gemaakt in CSS. Verder wilde ik de twee felle kleuren (groen en roze) een extra 'laag' geven, door een box-shadow toe te voegen aan de iframe. Echter kreeg ik dit niet voor elkaar op de manier hoe ik het in gedachten had. 
-Verder heb ik een effect gemaakt bij het geluid van het alarm, door de background van de body te laten knipperen met rode en blauwe kleuren. Een alarm associeer ik met één of beide van deze kleuren.
+Deze dag nagedacht welke effecten ik kan toevoegen. Ik ben begonnen met de eerste paar seconde van de video. Er is een zwaar en laag geluid te horen. Ik kreeg het idee om de video logischerwijs te laten trillen (net zoals bij een basgitaar). Deze animatie heb ik met een simpele  keyframe gemaakt in CSS. Verder wilde ik de twee felle kleuren (groen en roze) een extra 'laag' geven, door een box-shadow toe te voegen aan de iframe. Echter kreeg ik dit niet voor elkaar op de manier hoe ik het in gedachten had. Dit zal later om hulp vragen. 
+Verder heb ik effecten gemaakt bij de geluiden van de verschillende alarmen, door de background van de body te laten knipperen met rode en blauwe kleuren. Een alarm associeer ik met één of beide van deze kleuren. Hoe hoger het geluid van het alarm, hoe feller de kleur. 
+Op deze manier wordt ook visueel duidelijk dat het om verschillende alarmen gaat.  
 
 
 ### Update 2 - 12 mei
@@ -33,11 +34,11 @@ Verder heb ik op deze dag te tekst verder vormgegeven, zoals kleur en stijl. Ik 
 
 
 ### Update 3 13 mei
-Deze dag ben ik aan de slag gegaan met de feedback dat ik van mijn ouders kreeg: het animeren van de tekst. Sommige belangrijke woorden heb ik geanimeerd, zoals wanneer de hoofdpersoon "Yes Sir" zegt. Deze woorden worden op het moment van uitspreken vergroot en veranderen van kleur. Ook heb ik de zin "interlinked within cells, interlinked within one stem." geanimeerd, door de letter-spacing langzaam te veranderen. Ik vond dit effect wel passen bij de zeer neutrale toon van de hoofdpersoon. Ik ga dit later nog testen of dit van toegevoegd belang is. Ook is er een animatie te zien bij de scheldende man. Deze tekst wordt rood en groot in beeld gebracht.  
+Deze dag ben ik aan de slag gegaan met de feedback dat ik van mijn ouders kreeg: het animeren van de tekst. Sommige belangrijke woorden heb ik geanimeerd, zoals wanneer de hoofdpersoon "Yes Sir" zegt. Deze woorden worden op het moment van uitspreken vergroot en veranderen van kleur. Ook heb ik de zin "interlinked within cells, interlinked within one stem." geanimeerd, door de letter-spacing langzaam te veranderen. Ik vond dit effect wel passen bij de zeer neutrale saaie toon van de hoofdpersoon. Ik ga dit later nog testen of dit van toegevoegd belang is. Ook is er een animatie te zien bij de scheldende man. Deze tekst wordt rood en groot in beeld gebracht.  
 
 
 ### Update 4 14 mei
-Ik heb zitten nadenken wat ik bij de scène waarbij de hoofdpersoon in een kleine kamer zit kan toevoegen. Ik vond dit best lastig, omdat er eigenlijk niet veel gebeurd. Er is wel een vervelende piep te horen. Ik heb daarom een vervelende trilling in de video en tekst toegevoegd (een hoge toon heeft veel trillingen vergeleken met een lage toon). Ook veranderd de achtergrond langzaam naar rood (vond ik passen bij spanning).
+Ik heb zitten nadenken wat ik bij de scène waarbij de hoofdpersoon in een kleine kamer zit kan toevoegen. Ik vond dit best lastig, omdat er eigenlijk niet veel gebeurd. Er is wel een vervelende piep te horen. Ik heb daarom een vervelende trilling in de video en tekst toegevoegd (een hoge toon heeft veel trillingen vergeleken met een lage toon). Ook veranderd de achtergrond langzaam naar rood (vond ik passen bij spanning). Wanneer de piep voorbij is veranderd de kleur rood van de body weer naar de kleur van de kamer. Zo weet de kijker dat de spanning weg opeens over is. 
 Ik had wel soms moeite met het juist timen van de effecten. Dit heeft best veel tijd in beslag genomen, maar naar tientallen keren opnieuw proberen is het redelijk gelukt. Verder heb ik een beetje feedback verwerkt dat ik had gekregen. Het was bijvoorbeeld niet duidelijk dat de zin "Within cells interlinked." 3 keer werd gezegd (wanneer je geen geluid hebt). Dit heb ik opgelost door middel van  de suggestie om "after" te gebruiken. Achter de zin staat nu "3x". Ook heb ik bij sommige woorden het contrast iets aangepast, zodat het beter is te lezen.  
 
 
@@ -56,7 +57,8 @@ Verder kreeg ik feedback over of ik de "(3x)" niet ook kon animeren zoals ik bij
 
 ### Update 8 19 mei
 Deze dag ben ik bezig geweest met 'de puntjes op de i'. Ik heb geprobeerd de timing van de effecten zo nauwkeurig mogelijk te krijgen. Ik ben daar best tevreden mee. Soms is de timing net iets anders, maar ik denk dat dit met het internet te maken heeft. Tijdens de scéne met de man in de kamer heb ik met CSS een hart gemaakt dat snel klopt, zodat de gebruiker mog beter begrijpt dat het een scéne is met spanning. 
-
+Verder kreeg ik feedback (door te testen) over de ondertiteling van de boze man. Ik had ervoor gekozen deze vetgedrukt te maken, echter wanneer je geen geluid kan horen lijkt het alsof deze man het schreeuwend zegt (terwijl het juist fluisterend is). Ik heb daarom besloten deze tekst te veranderen in light.
+Verder viel het mij op dat voice1 op het einde van de scéne met de man in het kleine kamertje zachter klinkt. Ik heb daarom een groene gloed rondom de tekst gevoegd.   
 
 # Web Typography, 2020/2021
 
